@@ -4,7 +4,7 @@
 <img src="https://raw.githubusercontent.com/straight-tamago/misaka/main/images/IMG_2235.png?a=a" alt="Misaka" height="220" width="250"/>
 </a>
 </p>
-<p align="center"><b>iOS</b> & <b>tvOS</b> customisation tool for <b>KFD</b> & <b>MDC</b></p>
+<p align="center"><b>iOS 26</b> & <b>tvOS</b> customisation tool for <b>KFD</b> & <b>MDC</b></p>
 
 <p align="center">
 <a href="https://github.com/straight-tamago/misaka/releases/latest"><img src="https://img.shields.io/github/v/release/straight-tamago/misaka?color=d774d5" /></a>
@@ -29,6 +29,11 @@ At this time we have over 24 default repositories and more than 400 tweaks avail
 *Misaka is offered at no charge if somebody tried to sell it to you, report it*
 
 <br>
+
+## Versions Planned
+| iOS Versions | MDC | KFD |
+| 26 - 26.1 | - | ✓ |
+| 26.2 | - | - |
 
 ## Versions Supported
 | iOS Versions | MDC | KFD |
