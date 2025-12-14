@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>misakaProject</title>
+</head>
+<body>
+    <script>
+        const queryString = window.location.search;
+        const urlParams = new URLSearchParams(queryString);
+        if (urlParams.get('tweak') == undefined) {
+            const redirectUrl = "misaka://addrepo="+urlParams.get('repo')
+            if (redirectUrl) {
+                window.location.href = redirectUrl;
+            }
+        }else{
+            const redirectUrl = "misaka://opentweak="+urlParams.get('repo')+"&"+urlParams.get('tweak')
+            if (redirectUrl) {
+                window.location.href = redirectUrl;
+            }
+        }
+        var _timerId = setTimeout(function() {
+            window.location.href = "https://discord.gg/KSExeZVAGX";
+        }, 500);
+    </script>
+</body>
+</html>
